@@ -1,0 +1,20 @@
+{% extends '/components/card/base.card.twig' %}
+{% block content %}
+{# Card Front #}
+<div class="bg-blue-300" id="card-front">
+<div class="m-5">
+    <h2 class="text-primary" id="card-heading">Heading</h2>
+</div>
+<div class="m-5">
+    <p class="italic text-white" id="card-content">Content</p>
+</div>
+<div class="pb-1 m-5">
+  <div class="bn-flat bg-primary-light rounded-sm" id="card-button">This is more of the content I want</div>
+</div>
+</div>
+
+{# Card Back #}
+<div class="bg-blue-700" id="card-back">
+Back
+</div>
+{% endblock %}

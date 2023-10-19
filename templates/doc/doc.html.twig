@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+<div class="">
+    <nav class="text-primary text-white">
+        <ul class="bg-primary h-5 list-none">
+            <li class="text-primary-light">Home</li>
+        </ul>
+    </nav>
+</div>
+<div class="p-5 m-5">
+    {{ parsedContent|raw }}
+</div>
+
+{% endblock %}
+

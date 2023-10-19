@@ -3,3 +3,19 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+homepage:
+    path: /
+    controller: App\Controller\HomeController::index
+
+demo:
+    path: /demo
+    controller: App\Controller\DemoController::demo
+
+docs:
+    path: /docs
+    controller: App\Controller\DocController::docs
+
+post:
+    path: /post
+    controller: App\Controller\PostController::post

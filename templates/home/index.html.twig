@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Berillium CMS{% endblock %}
+
+{% block body %}
+{% include 'components/nav/nav.twig' %}
+
+<div class="bg-meloncolly:merlot" id='box'>
+    <h1 class="meloncolly:bubblegum fade:in">Mama mia! It's a pizzeria!</h1>
+    <h2 class="meloncolly:bubblegum">Classes</h2>
+    <p class="text-light meloncolly:splash">This friendly message is coming from Drew Winkles</p>
+    <button class="btn:meloncolly meloncolly:berry p-5 rounded-sm text-light" id="button" onclick="" >Change Swatch Variations</button>
+    {% include 'components/store/coupon.html.twig' %}
+</div>
+{% endblock %}
