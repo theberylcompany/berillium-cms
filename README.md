@@ -128,3 +128,6 @@ Special thanks to all our contributors and supporters. Built with ❤️ by the 
 For a more detailed guide and API documentation, please visit our official [Documentation](#).
 
 Happy coding! 🚀
+
+[🎮 Join our Discord Community! 🚀](https://discord.gg/your-discord-link-here)
+
